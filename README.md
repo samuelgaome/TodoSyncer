@@ -6,3 +6,9 @@ A tiny solo project: a local-first CLI to aggregate TODOs from multiple folders 
 - Parse // TODO, # TODO, and Markdown checkboxes
 - Write summary to `todo.yaml`
 
+## Usage
+
+Run:
+
+python -m src.todosyncer.cli . -o todo.yaml
+
