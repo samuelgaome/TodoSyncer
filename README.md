@@ -12,3 +12,7 @@ Run:
 
 python -m src.todosyncer.cli . -o todo.yaml
 
+## Notes
+
+Future: edit todo.yaml and push status back to files.
+
