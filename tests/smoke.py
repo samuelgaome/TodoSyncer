@@ -11,3 +11,5 @@ assert any('clean this up' in i.text for i in items)
 assert any(i.done for i in items)
 print('ok')
 
+from src.todosyncer.cli import CHECKBOX
+assert CHECKBOX.match('- [x] done item')
